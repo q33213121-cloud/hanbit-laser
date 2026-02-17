@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>한빛레이저</title>
+
+<!-- 韩文字体优化 -->
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+
+<style>
+body {
+  font-family: 'Noto Sans KR', Arial, sans-serif;
+  margin: 0;
+  color: #333;
+  line-height: 1.6;
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero {
+  background: #f7f7f7;
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 12px;
+  border: none;
+  margin: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+.primary {
+  background: #000;
+  color: #fff;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,.08);
+  margin: 10px;
+  flex: 1 1 200px; /* 响应式最小宽度200px */
+  max-width: 300px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+footer {
+  padding: 20px;
+  color: #888;
+  text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+  <h1>한빛레이저</h1>
+  <p>작은 물건에 특별한 의미를 새기는 맞춤 레이저 공방</p>
+  <button class="btn primary" aria-label="상담 문의">상담 문의</button>
+  <button class="btn" aria-label="제작 사례 보기">제작 사례 보기</button>
+</section>
+
+<section>
+  <h2>브랜드 소개</h2>
+  <p>UV 레이저 각인으로 세상에 하나뿐인 맞춤 제작 서비스를 제공합니다.</p>
+</section>
+
+<section>
+  <h2>서비스</h2>
+  <div class="grid">
+    <div class="card">반려동물 맞춤 제작</div>
+    <div class="card">기념 선물 제작</div>
+    <div class="card">생활용품 각인</div>
+    <div class="card">기업·단체 제작</div>
+  </div>
+</section>
+
+<section>
+  <h2>문의</h2>
+  <p>작은 아이디어도 편하게 문의 주세요 🙂</p>
+</section>
+
+<footer>
+  © Hanbit Laser
+</footer>
+
+</body>
+</html>
